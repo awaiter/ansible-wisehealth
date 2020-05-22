@@ -10,6 +10,9 @@ Moving bricks for life.
 * Web配置（计划开发中）
 * 对接playbook（计划开发中）
 
+## 执行
+在ansible主机上执行"ansible"目录中"main.py"
+
 ## 1. 基本架构
 为了满足线上开发、生产环境的需要，须要保证整个升级业务正常，不容出错。
 
@@ -38,7 +41,6 @@ Moving bricks for life.
 以任务为主
 
 2. 将多个升级脚本进行合并，不同项提取生成配置文件
-
 
 ## 4. 使用说明
 1. 在Ansible主机中将```/etc/ansible/hosts```配置文件拷贝至项目中。
