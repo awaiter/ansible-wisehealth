@@ -1,0 +1,19 @@
+/*
+example
+*/
+{
+  "task": "insight-fm",
+  //项目
+  "type": "warm",
+  //热升级，不需要重启服务
+  "trigger-time": null,
+  //任务触发时间（ansible）
+  "end-time": null,
+  //任务结束时间（ansible完成动作）
+  "upgrade-result": null,
+  //升级结果：成功|失败
+  "upgrade-type": "tomcat",
+  //升级内容
+  "update-host": null,
+  //
+}

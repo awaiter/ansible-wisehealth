@@ -35,6 +35,7 @@ Moving bricks for life.
 6. 升级类型（前端、后端、数据库）
 7. 升级主机名称（ansible server）
 8. 升级主机名称（linux: hostname）
+以任务为主
 
 2. 将多个升级脚本进行合并，不同项提取生成配置文件
 
