@@ -12,5 +12,14 @@ upgrade_ip = "192.168.47.25"
 ansible_host = "fm-server"
 str = "\""
 
+cpoy_data_cmd = ""
+rm_data_cmd = ""
+start_serice_cmd = ""
+stop_service_cmd = ""
+check_service_cmd = ""
+
 print trigger_time, end_time
 print str
+
+class update_task():
+    def backup_code(self):
